@@ -1,6 +1,6 @@
 import just_fizz as jf
 
-def test_checkio(num: int) -> str:
+def test_checkio():
 
     # These "asserts" are used for self-checking
     assert jf.checkio(15) == "Fizz"

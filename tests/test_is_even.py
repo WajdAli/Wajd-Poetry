@@ -1,6 +1,6 @@
 import is_even as ie
 
-def test_is_even(num: int) -> bool:
+def test_is_even():
 
     # These "asserts" are used for self-checking
     assert ie.is_even(2) == True

@@ -1,6 +1,6 @@
 import First_Word as fw
 
-def test_first_word(text: str) -> str:
+def test_first_word():
 
     # These "asserts" are used for self-checking
     assert fw.first_word("Hello world") == "Hello"

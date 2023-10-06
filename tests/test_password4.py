@@ -1,4 +1,4 @@
-import password4
+from rp_poetry import password4
 
 def is_acceptable_password(password: str) -> bool:
 

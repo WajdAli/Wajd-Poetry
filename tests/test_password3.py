@@ -1,6 +1,6 @@
 import password3
 
-def is_acceptable_password(password: str) -> bool:
+def is_acceptable_password():
 
     # These "asserts" are used for self-checking
     assert password3.is_acceptable_password("short") == False

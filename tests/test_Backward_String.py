@@ -1,6 +1,6 @@
 import Backward_String as bs
 
-def test_backward_string(val: str) -> str:
+def test_backward_string():
 
     # These "asserts" are used for self-checking
     assert bs.backward_string("val") == "lav"
