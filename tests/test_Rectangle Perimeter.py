@@ -1,4 +1,4 @@
-import Rectangle_Perimeter as rp
+import rp_poetry.Rectangle_Perimeter as rp
 
 def test_rectangle_perimeter():
 

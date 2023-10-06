@@ -1,4 +1,4 @@
-import Backward_String as bs
+import rp_poetry.Backward_String as bs
 
 def test_backward_string():
 

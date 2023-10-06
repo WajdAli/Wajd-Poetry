@@ -1,4 +1,4 @@
-import password2
+import rp_poetry.password2
 
 def is_acceptable_password():
 

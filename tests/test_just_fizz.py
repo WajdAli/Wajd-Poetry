@@ -1,4 +1,4 @@
-import just_fizz as jf
+import  rp_poetry.just_fizz as jf
 
 def test_checkio():
 
