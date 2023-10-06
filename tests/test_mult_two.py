@@ -1,3 +1,5 @@
+import mult_two as mt
+
 def test_mult_two(a: int, b: int) -> int:
 
     assert mult_two(3, 2) == 6
