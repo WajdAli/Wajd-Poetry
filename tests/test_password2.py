@@ -1,6 +1,6 @@
 import rp_poetry.password2
 
-def is_acceptable_password():
+def test_is_acceptable_password():
 
     # These "asserts" are used for self-checking
     assert password2.is_acceptable_password("short") == False
