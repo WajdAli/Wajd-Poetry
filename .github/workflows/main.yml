@@ -19,6 +19,9 @@ jobs:
       #----------------------------------------------
       #  -----  install & configure poetry  -----
       #----------------------------------------------
+      - name: Install setuptools
+        run: python -m pip install --upgrade setuptools
+
       - name: Install Poetry
         uses: snok/install-poetry@v1
         with:
@@ -84,7 +87,4 @@ jobs:
         with:
           github_token: ${{ secrets.github_token }}
           branch: ${{ github.ref }}
-
-
-
 
