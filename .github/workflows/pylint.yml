@@ -21,5 +21,10 @@ jobs:
           poetry install
         working-directory: ${{ github.workspace }}
 
+      - name: Install Pylint
+        run: |
+          poetry add --dev pylint
+        working-directory: ${{ github.workspace }}
+
       - name: Run Pylint
         run: poetry run pylint
